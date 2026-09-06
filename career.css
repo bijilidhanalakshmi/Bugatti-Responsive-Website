@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ================= NAVBAR ================= */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 90px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.aaba {
+    margin-left: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    font-size: 22px;
+}
+
+.logo h1 {
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+.navbar h2 {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* ================= HERO SECTION ================= */
+
+.background_image1 {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.25),
+            rgba(0, 0, 0, 0.35)
+        ),
+        url("career_logo.png");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 900px;
+}
+
+.middle {
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ab {
+    width: 100%;
+    text-align: center;
+}
+
+.destrier {
+    font-family: "Pinyon Script", cursive;
+}
+
+.destrier h1 {
+    font-family: "Pinyon Script", cursive;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.astot {
+    margin-top: 15px;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.discover {
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #cfcfcf;
+    padding: 14px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.3s ease;
+}
+
+.discover:hover {
+    background-color: white;
+    color: black;
+}
+
+/* ================= JOIN BUGATTI ================= */
+
+.joindiv {
+    background-color: black;
+    padding: 120px 250px;
+}
+
+.joinp {
+    font-size: 20px;
+    line-height: 2;
+    color: #d7d7d7;
+}
+
+/* ================= CAREER CONTENT ================= */
+
+.mainimagdiv {
+    width: 100%;
+    background-color: black;
+    padding-bottom: 120px;
+}
+
+.hisrory1div {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    min-height: 600px;
+    background-color: black;
+}
+
+.history11 {
+    width: 50%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.history11 h1 {
+    font-size: 38px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.firstpara {
+    font-size: 19px;
+    line-height: 2;
+    color: #d7d7d7;
+}
+
+.hisrory1div img {
+    width: 50%;
+    min-height: 600px;
+    object-fit: cover;
+    display: block;
+}
+
+/* ================= WHAT WE OFFER ================= */
+
+.what {
+    background-color: black;
+    padding-bottom: 70px;
+}
+
+.whatwe {
+    font-size: 40px;
+    padding: 50px 70px;
+    letter-spacing: 2px;
+}
+
+.what img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ================= FOOTER ================= */
+
+.footerdivmain {
+    width: 100%;
+}
+
+.footerf {
+    background-color: #131313;
+    padding-top: 50px;
+}
+
+.footerdiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px 70px;
+}
+
+.footer {
+    width: 22%;
+}
+
+.footer li {
+    padding: 8px 0;
+    font-size: 14px;
+    color: #cccccc;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.footer li:hover {
+    color: white;
+}
+
+.footer li strong {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.fotter {
+    padding: 30px 70px;
+}
+
+.fotter h2 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #bdbdbd;
+}
+
+.fotterss {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px 70px;
+}
+
+.fotterss h4 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #bdbdbd;
+    cursor: pointer;
+}
+
+.fotterss h4:hover {
+    color: white;
+}
+
+.logodiv {
+    padding: 25px 70px 50px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logos li {
+    padding: 0;
+}
+
+.logos i {
+    font-size: 22px;
+    transition: 0.3s ease;
+}
+
+.logos i:hover {
+    transform: scale(1.2);
+}
+
+/* ================= TABLET ================= */
+
+@media screen and (max-width: 1000px) {
+
+    nav {
+        padding: 0 25px;
+    }
+
+    .destrier h1 {
+        font-size: 90px;
+    }
+
+    .astot {
+        font-size: 20px;
+    }
+
+    .joindiv {
+        padding: 90px 80px;
+    }
+
+    .joinp {
+        font-size: 18px;
+    }
+
+    .history11 {
+        padding: 55px 40px;
+    }
+
+    .history11 h1 {
+        font-size: 31px;
+    }
+
+    .firstpara {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .hisrory1div img {
+        min-height: 500px;
+    }
+
+    .footerdiv {
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        width: 45%;
+    }
+}
+
+/* ================= MOBILE ================= */
+
+@media screen and (max-width: 700px) {
+
+    nav {
+        padding: 0 15px;
+        height: 75px;
+    }
+
+    .navbar h2 {
+        display: none;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .logo i {
+        font-size: 19px;
+    }
+
+    .background_image1 {
+        min-height: 700px;
+    }
+
+    .middle {
+        min-height: 600px;
+        padding: 0 20px;
+    }
+
+    .destrier h1 {
+        font-size: 72px;
+    }
+
+    .astot {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .discover {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+
+    .joindiv {
+        padding: 60px 25px;
+    }
+
+    .joinp {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .hisrory1div {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .history11 {
+        width: 100%;
+        padding: 50px 25px;
+        order: 2;
+    }
+
+    .hisrory1div img {
+        width: 100%;
+        height: 350px;
+        min-height: 350px;
+        order: 1;
+    }
+
+    .history11 h1 {
+        font-size: 27px;
+    }
+
+    .firstpara {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .whatwe {
+        font-size: 30px;
+        padding: 35px 20px;
+    }
+
+    .footerdiv {
+        flex-direction: column;
+        padding: 35px 25px;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .fotter {
+        padding: 25px;
+    }
+
+    .fotterss {
+        flex-direction: column;
+        padding: 20px 25px;
+        gap: 12px;
+    }
+
+    .logodiv {
+        padding: 25px;
+    }
+}
