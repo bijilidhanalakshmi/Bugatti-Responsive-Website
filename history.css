@@ -136,14 +136,13 @@ nav .navbar:last-child{
 }
 .hisrory1div{
     display:flex;
-    align-items:stretch;
     width:100%;
     min-height:600px;
     background-color:black;
 }
 .history11{
     width:50%;
-    padding:90px 80px;
+    padding:80px 60px;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -162,7 +161,7 @@ nav .navbar:last-child{
 .hisrory1div img{
     display:block;
     width:50%;
-    min-height:600px;
+    height:600px;
     object-fit:cover;
 }
 .footerdivmain{
@@ -255,7 +254,7 @@ nav .navbar:last-child{
         font-size:19px;
     }
     .hisrory1div{
-        min-height:auto;
+        min-height:500px;
     }
     .history11{
         padding:60px 40px;
@@ -268,7 +267,7 @@ nav .navbar:last-child{
         line-height:1.8;
     }
     .hisrory1div img{
-        min-height:500px;
+        height:500px;
     }
     .footerdiv{
         flex-wrap:wrap;
@@ -321,6 +320,7 @@ nav .navbar:last-child{
     }
     .hisrory1div{
         flex-direction:column;
+        min-height:auto;
     }
     .history11{
         width:100%;
@@ -329,8 +329,8 @@ nav .navbar:last-child{
     }
     .hisrory1div img{
         width:100%;
-        min-height:350px;
         height:350px;
+        object-fit:cover;
         order:1;
     }
     .history11 h1{
