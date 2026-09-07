@@ -1,14 +1,45 @@
 * {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    width: 100%;
+}
+body {
     overflow-x: hidden;
     color: white;
-    padding: -20px;
+    background-color: black;
 }
-video {
-    margin-top: 00px;
-    width: 1450px;
-    z-index: -10;
-    position: absolute;
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 130px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.aaba {
+    margin-right: 20px;
+}
+.logo {
+    text-decoration: none;
+    display: flex;
+    margin-top: 38px;
+}
+.logo i {
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+h2 {
+    padding: 30px;
 }
 .bugattih {
     color: white;
@@ -16,157 +47,214 @@ video {
 .bugatti_head {
     color: white;
 }
-.navbar {
-    display: flex;
-    color: white;
-    margin: 0px;
-    padding: -10px;
-}
-.aaba {
-    margin-right: 20px;
-}
-nav {
-    display: flex;
-    justify-content: space-around;
-    gap: 130px;
-}
-h1 {
-    color: black;
-    text-decoration: none;
-}
-.logo {
-    text-decoration: none;
-    display: flex;
-    margin-top: 38px;
-    text-decoration: none;
-}
-h2 {
-    padding: 30px;
-    text-decoration: none;
-}
-a {
-    text-decoration: none;
+.background_image1 {
+    background-image: url("images/discory_logo.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 900px;
 }
 .middle {
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -20px;
 }
 .destrier {
     font-family: "Pinyon Script", cursive;
     font-weight: 900;
     font-size: 120px;
-    font-style: normal;
-
+}
+.destrier h1 {
+    color: black;
 }
 .astot {
-    display: absolute;
     margin-top: -80px;
+    color: green;
+    margin-left: 130px;
 }
 .discover {
     margin-left: 280px;
     border: 2px solid black;
-    width: 230px;
+    width: 250px;
     padding: 10px;
     border-radius: 18px;
     color: black;
     font-size: 20px;
-}
-.background_image1 {
-    background-image: url("images/discory_logo.jpeg");
-    background-position: center;
-    background-size: cover;
-    height: 900px;
-}
-.astot {
-    color: green;
-    margin-left: 130px;
+    text-align: center;
 }
 .founded {
     background-color: black;
+    color: white;
     font-size: 35px;
-    padding: 200px 250px 100px 250px;
+    line-height: 1.5;
+    padding: 150px 15%;
 }
 .dis_imges {
+    width: 100%;
     background-color: black;
 }
+.dis_imges img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 .more_then {
+    width: 100%;
     background-color: black;
-    padding-left: 80px;
-    padding-top: 50px;
+    padding: 70px 5%;
 }
 .more {
     font-size: 30px;
-
     font-weight: 400;
-    font-style: normal;
     color: white;
 }
 .more_thenp {
+    max-width: 1000px;
     font-size: 20px;
     line-height: 1.8;
-
     font-weight: 200;
-    font-style: normal;
     color: white;
-    padding: 20px 450px 90px 50px;
+    padding: 30px 0 70px 50px;
 }
 .discovery3 {
-    margin-left: 200px;
+    display: block;
+    width: 75%;
+    max-width: 1100px;
+    height: auto;
+    margin: 0 auto;
 }
 .discory_last {
-    background: black;
-    margin-bottom: -10px;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: black;
     padding-bottom: 70px;
 }
 .footerf {
     background-color: #131313;
-}
-.footer {
-    font-size: 40px;
+    padding-top: 60px;
 }
 .footerdiv {
     display: flex;
     justify-content: space-around;
+    gap: 30px;
+    padding: 30px;
+}
+.footer {
     font-size: 20px;
+}
+.footer ul {
+    list-style: none;
 }
 li {
     padding: 10px;
     font-size: 20px;
 }
+.fotter {
+    padding: 20px 40px;
+}
+.a2026 {
+    font-size: 30px;
+    color: white;
+}
 .fotterss {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
     padding: 50px;
-    font-size: 20px;
-}
-.h4 {
-    padding: 40px;
     font-size: 20px;
 }
 .logodiv {
     padding: 40px;
-    font-size: 20px;
 }
 .logos {
     display: flex;
     gap: 30px;
-    font-size: 20px;
+    list-style: none;
 }
-.a2026 {
-    font-size: 30px;
-}
-.lconli {
-    padding-top: -50px;
-
+.logos a {
+    color: white;
 }
 .fa-brands {
-    margin-top: -50px;
-    padding-top: -50px;
+    font-size: 25px;
 }
-.iconlia {
-    padding-top: -50px;
-    margin-top: -50px;
+@media (max-width: 900px) {
+    nav {
+        gap: 20px;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    .destrier {
+        font-size: 70px;
+    }
+    .astot {
+        margin-left: 20px;
+        margin-top: -30px;
+    }
+    .discover {
+        margin: 20px auto;
+    }
+    .founded {
+        padding: 80px 30px;
+        font-size: 25px;
+    }
+    .more_then {
+        padding: 50px 30px;
+    }
+    .more_thenp {
+        padding: 30px 0 50px;
+    }
+    .discovery3 {
+        width: 100%;
+    }
+    .footerdiv {
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px) {
+    .background_image1 {
+        min-height: 700px;
+    }
+    nav h2 {
+        display: none;
+    }
+    .middle {
+        height: 500px;
+    }
+    .destrier {
+        font-size: 45px;
+    }
+    .astot {
+        margin: 0;
+        padding: 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .discover {
+        margin: 10px auto;
+        font-size: 16px;
+        width: 210px;
+    }
+
+    .founded {
+        font-size: 20px;
+        padding: 60px 20px;
+    }
+
+    .more {
+        font-size: 25px;
+    }
+
+    .more_thenp {
+        font-size: 17px;
+    }
+
+    .fotterss {
+        flex-direction: column;
+    }
 }
